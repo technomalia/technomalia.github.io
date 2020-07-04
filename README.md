@@ -8,8 +8,8 @@ One of the most important things we need to decide is how many pages we want and
 
 So far I've only considered the landing page, which doesn't necessarily have to be titled "Home", but every site needs one and I know we'll need a few more for the various exercises assignment-02 has us all doing but I'm unsure of the number of individual pages we'll need and how many will hold multiple topics/exercises, so help me by telling me if you need a full page for what you're working on.
 
-This is the site map I've got..
-
+Here's the plan:
+<hr>
 ```Home
 
 Reports -> 01
@@ -24,7 +24,7 @@ Products -> Hardware -> SmartPet-20(20)
 About -> About Technomalia
       -> Meet the Team
       -> Resources```
-
+<hr>
 I know there's the four 1,200 word reports everyone's doing, but do we want them all just shoved in the one page or a seperate page for each?
 
 Tell me what other pages you'll need.
