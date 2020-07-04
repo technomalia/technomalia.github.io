@@ -22,9 +22,9 @@ Products -> Hardware -> SmartPet-20(20)
          -> Software -> n/a
          -> Services -> n/a
 
-About -> About Technomalia
-      -> Meet the Team
-      -> Resource Links
+Information -> About Technomalia
+            -> Meet the Team
+            -> Resource Links
 ```
 
 I know there's the four 1,200 word reports everyone's doing, but do we want them all just shoved in the one page or a separate page for each?
