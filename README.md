@@ -12,18 +12,19 @@ Here's the plan:
 
 ```Home
 
-Reports -> 01
-        -> 02
-        -> 03
-        -> 04
+Articles -> Cloud Computing
+         -> Raspberry Pi
+         -> Machine Learning
+         -> ???
 
 Products -> Hardware -> SmartPet-20(20)
-         -> Software -> -
-         -> Services -> -
+         -> Software -> n/a
+         -> Services -> n/a
 
 About -> About Technomalia
       -> Meet the Team
-      -> Resources```
+      -> Resources
+```
 
 I know there's the four 1,200 word reports everyone's doing, but do we want them all just shoved in the one page or a seperate page for each?
 
