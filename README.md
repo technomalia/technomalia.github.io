@@ -8,8 +8,12 @@ One of the most important things we need to decide is how many pages we want and
 
 So far I've only considered the landing page, which doesn't necessarily have to be titled "Home", but every site needs one and I know we'll need a few more for the various exercises assignment-02 has us all doing but I'm unsure of the number of individual pages we'll need and how many will hold multiple topics/exercises, so help me by telling me if you need a full page for what you're working on.
 
+So far these are the only two pages I <b>know</b> we will need:
+
 - Home
 - ...
 - ...
 - ...
 - About
+
+Tell me what other pages you'll need..
