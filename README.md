@@ -12,9 +12,9 @@ So far these are the only two pages I <b>know</b> we will need:
 
 - Home
 - Reports -> 01\
-                  -> 02\
-          \t\t-> 03\
-          -> 04
+            ........-> 02\
+          /////-> 03\
+          |||-> 04
 - Products -> Hardware -> SmartPet-20(20)\
            -> Software -> (none)\
            -> Services -> (none)
