@@ -12,13 +12,15 @@ So far these are the only two pages I <b>know</b> we will need:
 
 ```Home
 Reports -> 01\
-          -> 02\
-          -> 03\
-          -> 04
+        -> 02\
+        -> 03\
+        -> 04
+
 Products -> Hardware -> SmartPet-20(20)
+
 About -> Our story\
-        -> Meet the Team\
-        -> Resources```
+      -> Meet the Team\
+      -> Resources```
 
 I know there's the four 1,200 word reports everyone's doing, but do we want them all just shoved in the one page or a seperate page for each?
 
