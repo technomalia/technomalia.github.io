@@ -11,13 +11,13 @@ So far I've only considered the landing page, which doesn't necessarily have to 
 So far these are the only two pages I <b>know</b> we will need:
 
 - Home
-- Reports -> 01\
-          \-> 02\
-          \-> 03\
-          \->04
-- Products \\ Hardware -> SmartPet-20(20)\n
-            \\ Software -> (none)\n
-            \\ Services -> (none)
+- Reports -> 01
+          \-> 02
+          \-> 03
+          \-> 04
+- Products -> Hardware -> SmartPet-20(20)
+          \-> Software -> (none)
+           \-> Services -> (none)
 - ...
 - About
 
