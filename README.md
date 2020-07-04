@@ -12,8 +12,10 @@ So far these are the only two pages I <b>know</b> we will need:
 
 - Home
 - ...
-- ...
+- Products
 - ...
 - About
 
-Tell me what other pages you'll need..
+I know there's the four 1,200 word reports everyone's doing, but do we want them all just shoved in the one page or a seperate page for each?
+
+Tell me what other pages you'll need.
