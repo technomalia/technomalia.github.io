@@ -30,5 +30,5 @@ I know there's the four 1,200 word reports everyone's doing, but do we want them
 
 Tell me what other pages you'll need while I'll have a look for a better menu-bar before bedtime Sunday night.
 
-<img align="center" src="https://psychaesthetic.com.au/photobox/images/2020/07/06/dog-shadow-technomalia2.png" width="200" />
+<!-- <img align="center" src="https://psychaesthetic.com.au/photobox/images/2020/07/06/dog-shadow-technomalia2.png" width="200" /> -->
 
