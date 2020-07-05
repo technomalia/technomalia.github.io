@@ -14,7 +14,7 @@ Articles -> Cloud Computing
          -> Machine Learning
          -> ???
 
-Products -> Hardware -> SmartPet-20(20)
+Products -> SmartPet-20(20)
 
 Information -> About Technomalia
             -> Meet the Team
