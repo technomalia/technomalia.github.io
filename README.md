@@ -9,7 +9,7 @@ If you're a group member who's unsure what you should do now you're here, <i>sta
 Here's the proposed site-map I've got so far:
 
 ```
-Welcome
+Technomalia
 
 Articles -> Cloud Computing
          -> Raspberry Pi
