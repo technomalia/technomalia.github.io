@@ -22,6 +22,9 @@ Information -> About Technomalia
             -> Meet the Team
             -> Resource Links
 ```
+Really, I've gotta get an open line of communication going with Tara: waiting until the group sessions leaves a lot of days without any back and forth at all and it's hard to design or construct anything with a combination of 50/50 input from two people if those two people are only comparing notes twice a week - we should be able to present a functional site by Tuesday, yet Tuesday will be the first opportunity we've had to even collaborate about it.
+
+Everyone else, I can just copy/paste their reports or writing into the site and neaten it, but without the visual design half of the site creation I don't know what I'll be looking at in a week.
 
 I know there's the four 1,200 word reports everyone's doing, but do we want them all just shoved in the one page or a separate page for each?
 
