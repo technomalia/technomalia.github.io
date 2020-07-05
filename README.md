@@ -25,4 +25,4 @@ Information -> About Technomalia
 
 I know there's the four 1,200 word reports everyone's doing, but do we want them all just shoved in the one page or a separate page for each?
 
-Tell me what other pages you'll need.
+Tell me what other pages you'll need while I'll have a look for a better menu-bar before bedtime Sunday night.
