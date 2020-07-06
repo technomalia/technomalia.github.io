@@ -38,7 +38,7 @@ Fukn arsehole of an application and I've been to the Adobe forums: found a page 
 
 Unusuable, it is and all the screaming from users in the forums isn't from 2018 or some distant time years in the past - it's <u>ALL</u> from June through to the start of this month - with no replies from Adobe whatsoever.
 
-```Photoshop 2020``` and ```Illustrator 2020``` still work fine,  but ```Dreamweaver``` is ratshit until they pull their heads out their arses and give us an update, so I've got none of the speed and convenience of the all-in-one super site builder >:(
+The rest of the ```2020``` suite of apps still work fine,  but ```Dreamweaver``` is ratshit until they pull their heads out their arses and give us an update, so I've got none of the speed and convenience of the all-in-one super site builder.
 
-<!-- <img align="center" src="https://psychaesthetic.com.au/photobox/images/2020/07/06/dog-shadow-technomalia2.png" width="200" /> -->
+Adobe have never been known for their fast response to their own customers complaints though and I'm not getting anything done complaining about it myself..
 
