@@ -30,5 +30,15 @@ I know there's the four 1,200 word reports everyone's doing, but do we want them
 
 Tell me what other pages you'll need while I'll have a look for a better menu-bar before bedtime Sunday night.
 
+Dreamweaver is <i>broken</i>.. 
+
+I'll have to hand-edit the site into creation with just Atom to edit all the files and firefox to preview those edits. 
+
+Fukn arsehole of an application and I've been to the Adobe forums: found a page <b>packed</b> will users screaming about having the same shitty pauses in their Dreamweaver installations that last from 5 seconds to several minutes - every time you type anything, the entire app freezes for a few seconds, then what you've typed appears in the code editor and the cursor blinks again so you type a few characters and it instantly freezes for another 5 seconds then the cursor is back again, rinse and repeat over and over.. 
+
+Unusuable, it is and all the screaming from users in the forums isn't from 2018 or some distant time years in the past - it's <u>ALL</u> from June through to the start of this month - with no replies from Adobe whatsoever.
+
+```Photoshop 2020``` and ```Illustrator 2020``` still work fine,  but ```Dreamweaver``` is ratshit until they pull their heads out their arses and give us an update, so I've got none of the speed and convenience of the all-in-one super site builder >:(
+
 <!-- <img align="center" src="https://psychaesthetic.com.au/photobox/images/2020/07/06/dog-shadow-technomalia2.png" width="200" /> -->
 
