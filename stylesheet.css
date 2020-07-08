@@ -3249,10 +3249,10 @@ input[type="button"].btn-block {
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
-  color: #C7C7C7;
+  color: #FFF;
   text-align: left;
   list-style: none;
-  background-color: rgb(44, 45, 46, 0.8);
+  background-color: rgb(44, 45, 46, 0.7);
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
@@ -4301,7 +4301,7 @@ input[type="button"].btn-block {
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
   background-color: transparent;
-  border-color: #dee2e6 #dee2e6 #fff;
+  border-color: #dee2e6 #dee2e6 rgb(214, 132, 22, 0.5);
 }
 
 .nav-tabs .dropdown-menu {
