@@ -36,16 +36,17 @@
 }
 
 html {
+  min-height: 100%;
+  height: 200%;
+  width: 100%;
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   background-color: #699095;
-  background: linear-gradient( to bottom right, #699095, #ED902E); /* gradient */
+  background: linear-gradient( to bottom right, #699095, #ED902E) fixed; /* gradient */
   background-repeat: no-repeat;
   background-size: cover;
-  width: 100%;
-  height: 100%;
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -60,8 +61,10 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
+  min-height: 100%;
+  height: 200%;
   background-color: #699095;
-  background: linear-gradient( to bottom right, #699095, #ED902E);
+  background: linear-gradient( to bottom right, #699095, #ED902E) fixed;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -369,6 +372,15 @@ h1, h2, h3, h4, h5, h6,
 
 h1, .h1 {
   font-size: 2.5rem;
+  font-weight: 300;
+  font-style: bolder;
+  text-transform: capitalize;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: -webkit-linear-gradient(rgb(23, 77, 94, 0.8), rgb(0, 0, 0, 0.3));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 150%;
 }
 
 h2, .h2 {
@@ -392,8 +404,14 @@ h6, .h6 {
 }
 
 .lead {
-  font-size: 1.25rem;
+  font-size: 1.33rem;
   font-weight: 300;
+  line-height:120%;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: -webkit-linear-gradient(rgb(17, 49, 61, 0.9), rgb(0, 0, 0, 0.2));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .display-1 {
@@ -2563,13 +2581,13 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
+  background-color: rgba(0,45,69,0.1);
+  border-color: rgba(0,45,69,1.00);
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #0069d9;
+  background-color: rgba(0,45,69,0.3);
   border-color: #0062cc;
 }
 
@@ -3203,6 +3221,7 @@ input[type="button"].btn-block {
 
 .dropdown-toggle {
   white-space: nowrap;
+  border-radius: 0.3rem;
 }
 
 .dropdown-toggle::after {
@@ -3231,10 +3250,10 @@ input[type="button"].btn-block {
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
-  color: #212529;
+  color: #FFF;
   text-align: left;
   list-style: none;
-  background-color: #fff;
+  background-color: rgb(0, 45, 69, 0.5);
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
@@ -3398,7 +3417,7 @@ input[type="button"].btn-block {
   padding: 0.25rem 1.5rem;
   clear: both;
   font-weight: 400;
-  color: #212529;
+  color: #CCC;
   text-align: inherit;
   white-space: nowrap;
   background-color: transparent;
@@ -3406,15 +3425,15 @@ input[type="button"].btn-block {
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
-  color: #16181b;
+  color: #FFF;
   text-decoration: none;
-  background-color: #f8f9fa;
+  background-color: rgb(209, 135, 22);
 }
 
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: #007bff;
+  background-color: rgb(181, 137, 24, 0.8);
 }
 
 .dropdown-item.disabled, .dropdown-item:disabled {
@@ -4274,16 +4293,16 @@ input[type="button"].btn-block {
 }
 
 .nav-tabs .nav-link.disabled {
-  color: #6c757d;
-  background-color: transparent;
+  color: rgba(187,187,187,0.73);
+  background-color: rgb(0,0,0,0,0);
   border-color: transparent;
 }
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: #495057;
-  background-color: #fff;
-  border-color: #dee2e6 #dee2e6 #fff;
+  color: rgba(187,187,187,0.77);
+  background-color: transparent;
+  border-color: #dee2e6 #dee2e6 rgb(214, 132, 22, 0.5);
 }
 
 .nav-tabs .dropdown-menu {
@@ -4372,7 +4391,7 @@ input[type="button"].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
-  background-color: #699095;
+  background-color: rgb(0,0,0,0.1); /* #699095; */
 }
 
 .navbar-nav .nav-link {
@@ -5250,7 +5269,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-color: #e9ecef;
+  background-color: rgba(255,255,255,0.10);
   border-radius: 0.3rem;
 }
 
@@ -6770,13 +6789,13 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color: rgb(100, 100, 100, 0.0)/* #343a40 */ !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
 button.bg-dark:focus {
-  background-color: #1d2124 !important;
+  background-color: transparent /* #1d2124 */!important;
 }
 
 .bg-white {
@@ -10199,6 +10218,7 @@ a.text-dark:hover, a.text-dark:focus {
   }
   .navbar {
     display: none;
+    background-color: transparent;
   }
   .badge {
     border: 1px solid #000;
