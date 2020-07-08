@@ -41,7 +41,7 @@ html {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   background-color: #699095;
-  background: linear-gradient( to bottom, #699095, orange);
+  background: linear-gradient( to bottom, #699095, #ED902E);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -60,8 +60,8 @@ body {
   line-height: 1.5;
   color: #212529;
   text-align: left;
-  background-color: #699095; /* navbar-brand */
-  background: linear-gradient( to bottom, #699095, orange);
+  background-color: #699095;
+  background: linear-gradient( to bottom, #699095, #ED902E);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
