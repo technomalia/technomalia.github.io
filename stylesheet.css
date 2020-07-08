@@ -4390,7 +4390,7 @@ input[type="button"].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
-  background-color: transparent; /* #699095; */
+  background-color: rgb(0,0,0,0.1); /* #699095; */
 }
 
 .navbar-nav .nav-link {
@@ -6788,7 +6788,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: rgb(100, 100, 100, 0.8)/* #343a40 */ !important;
+  background-color: rgb(100, 100, 100, 0.1)/* #343a40 */ !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
@@ -10217,6 +10217,7 @@ a.text-dark:hover, a.text-dark:focus {
   }
   .navbar {
     display: none;
+    background-color: transparent;
   }
   .badge {
     border: 1px solid #000;
