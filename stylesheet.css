@@ -372,6 +372,13 @@ h1, h2, h3, h4, h5, h6,
 
 h1, .h1 {
   font-size: 2.5rem;
+  font-weight: 450;
+  padding-left: 10px;
+  padding-right: 10px;
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 0.99), rgb(195, 164, 10, 0.3));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 150%;
 }
 
 h2, .h2 {
@@ -395,12 +402,12 @@ h6, .h6 {
 }
 
 .lead {
-  font-size: 1.25rem;
-  font-weight: 450;
+  font-size: 1.33rem;
+  font-weight: 300;
+  line-height:120%;
+  padding-left: 20px;
+  padding-right: 20px;
   /* color: linear-gradient( to right, rgba(0, 0, 0, 1.0), rgba(99, 99, 0, 0.3)); */
-  background: -webkit-linear-gradient(rgba(0, 0, 0, 1.0), rgba(99, 99, 0, 0.3));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 
 .display-1 {
