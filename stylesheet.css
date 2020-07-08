@@ -396,8 +396,11 @@ h6, .h6 {
 
 .lead {
   font-size: 1.25rem;
-  font-weight: 300;
-  color: linear-gradient( to right, rgba(0, 0, 0, 1.0), rgba(99, 99, 0, 0.3));
+  font-weight: 450;
+  /* color: linear-gradient( to right, rgba(0, 0, 0, 1.0), rgba(99, 99, 0, 0.3)); */
+  background: -webkit-linear-gradient(rgba(0, 0, 0, 1.0), rgba(99, 99, 0, 0.3));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .display-1 {
