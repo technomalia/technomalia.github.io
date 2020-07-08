@@ -38,6 +38,7 @@
 html {
   min-height: 100%;
   height: 200%;
+  width: 100%;
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -46,10 +47,6 @@ html {
   background: linear-gradient( to bottom right, #699095, #ED902E) fixed; /* gradient */
   background-repeat: no-repeat;
   background-size: cover;
-  min-width: 100%;
-  width: 200%;
-  min-height: 100%;
-  height: 200%;
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
