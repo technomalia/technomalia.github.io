@@ -373,9 +373,11 @@ h1, h2, h3, h4, h5, h6,
 h1, .h1 {
   font-size: 2.5rem;
   font-weight: 450;
+  font-style: bolder;
+  text-transform: uppercase;
   padding-left: 10px;
   padding-right: 10px;
-  background: -webkit-linear-gradient(rgb(66, 74, 7, 0.3), rgb(0, 0, 0, 0.8));
+  background: -webkit-linear-gradient(rgb(0, 0, 0, 0.6), rgb(0, 0, 0, 0.1));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   line-height: 150%;
@@ -407,7 +409,9 @@ h6, .h6 {
   line-height:120%;
   padding-left: 20px;
   padding-right: 20px;
-  /* color: linear-gradient( to right, rgba(0, 0, 0, 1.0), rgba(99, 99, 0, 0.3)); */
+  background: -webkit-linear-gradient(rgb(9, 75, 98, 0.9), rgb(0, 0, 0, 0.3));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .display-1 {
