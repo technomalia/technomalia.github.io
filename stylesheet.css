@@ -377,7 +377,7 @@ h1, .h1 {
   text-transform: capitalize;
   padding-left: 10px;
   padding-right: 10px;
-  background: -webkit-linear-gradient(rgb(23, 77, 94, 0.8), rgb(0, 0, 0, 0.3));
+  background: -webkit-linear-gradient(rgb(23, 77, 94, 0.8), rgb(0, 0, 0, 0.1));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   line-height: 150%;
