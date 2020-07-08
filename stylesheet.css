@@ -374,7 +374,7 @@ h1, .h1 {
   font-size: 2.5rem;
   font-weight: 450;
   font-style: bolder;
-  text-transform: uppercase;
+  text-transform: capitalize;
   padding-left: 10px;
   padding-right: 10px;
   background: -webkit-linear-gradient(rgb(23, 77, 94, 0.8), rgb(0, 0, 0, 0.3));
