@@ -1,0 +1,3 @@
+We'll edit this file to test your setups..
+
+Edit this file, add something then check the left panel in GitHub Desktop in the "Changes" tab.
