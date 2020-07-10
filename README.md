@@ -1,8 +1,8 @@
 # Welcome to Technomalia!
 
-Alright I've gone and registered a proper domain for the group's site, since they're dirt cheap and make us look that little more professional: though the new domain hasn't fully populated the DNS lookup servers yet, I've just had it pop in Microsofts Edge browser on my phone, so the other browsers should be catching-up soon enough now, which means there's no longer the need to use a cheap-looking subdomain of githubs when linking or visiting the site:
+Alright I've gone and registered a proper domain for the group's site, since they're dirt cheap and make us look that little more professional: though the new domain hasn't fully populated the DNS lookup servers yet, I've just had it pop in Microsofts Edge browser on my phone, so the other browsers should be catching-up soon enough now, which means there's no longer the need to use github's free, amatuer looking, subdomain when visiting the site anymore, just this: <a href="http://technomalia.org">technomalia.org</a>.
 
-<a href="http://technomalia.org">technomalia.org</a> <-- That's us!
+Easy.
 
 I didn't bother buying an SSL certificate to encrypt the site too, which slightly annoys me because I'm <b>SO</b> accustomed to ALL my pages/domains/sites having that sexy little green padlock nowadays, but i dunno - it'll probably bug me enough that I end up grabbing a certificate too I guess.
 
