@@ -375,12 +375,12 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 2.5rem;
+  font-size: 3.3rem;
   font-weight: 300;
   font-style: bolder;
   text-transform: capitalize;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 12px;
+  padding-right: 12px;
   background: -webkit-linear-gradient(rgb(23, 77, 94, 0.8), rgb(0, 0, 0, 0.3));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -408,12 +408,12 @@ h6, .h6 {
 }
 
 .lead {
-  font-size: 1.33rem;
+  font-size: 1.5rem;
   font-weight: 300;
-  line-height:120%;
+  line-height: 150%;
   padding-left: 20px;
   padding-right: 20px;
-  background: -webkit-linear-gradient(rgb(17, 49, 61, 0.8), rgb(0, 0, 0, 0.4));
+  background: -webkit-linear-gradient(rgb(17, 49, 61, 0.9), rgb(0, 0, 0, 0.4));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -437,9 +437,17 @@ h6, .h6 {
 }
 
 .display-4 {
-  font-size: 3rem;
-  font-weight: 300;
-  line-height: 200%;
+  font-size: 3.9rem;
+  text-rendering: geometricPrecision;
+  letter-spacing: 0.3rem;
+  font-weight: 100;
+  line-height: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-transform: uppercase;
+  background: -webkit-linear-gradient(rgb(17, 49, 61, 0.1), rgb(0, 0, 0, 0.7));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 hr {
