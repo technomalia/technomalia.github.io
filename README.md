@@ -1,6 +1,6 @@
 # Welcome to Technomalia!
 
-Alright I've gone and registered a proper domain for the group's site, since they're dirt cheap and make us look that little more professional: though the new domain hasn't fully populated the DNS lookup servers yet, I've just had it pop in Microsofts Edge browser on my phone, so the other browsers should be catching-up soon enough now, which means there's no longer the need to use github's free, amatuer looking, subdomain when visiting the site anymore, just this: <a href="http://technomalia.org">technomalia.org</a>.
+Alright I've gone and registered a proper domain for the group's site, since they're dirt cheap and make us look that little more professional: though the new domain hasn't fully populated the DNS lookup servers yet, I've just had it pop in Microsofts Edge browser on my phone, so the other browsers should be catching-up soon enough now, which means there's no longer the need to use github's crappy subdomain when visiting the site now we've got our own premium (and shorter) URL: <a href="http://technomalia.org">technomalia.org</a>.
 
 Easy.
 
