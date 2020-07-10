@@ -1,8 +1,10 @@
 # Welcome to Technomalia!
 
-You have found your way our RMIT study-group's website, which exists purely as an assignment exercise to showcase our teams remarkable level of awesome - both individual and group - and to demonstrate that awesome with the various tasks and assessments we'll be given from now until the end of the Introduction to Information Technology course.
+Alright I've gone and registered a proper domain for the group's site, since they're dirt cheap and make us look that little more professional: though the new domain hasn't fully populated the DNS lookup servers yet, I've just had it pop in Microsofts Edge browser on my phone, so the other browsers should be catching-up soon enough now, which means there's no longer the need to use github's crappy subdomain when visiting the site now we've got our own premium (and shorter) URL: <a href="http://technomalia.org">technomalia.org</a>.
 
-The actual site is here: https://technomalia.github.io
+Easy.
+
+I didn't bother buying an SSL certificate to encrypt the site too, which slightly annoys me because I'm <b>SO</b> accustomed to ALL my pages/domains/sites having that sexy little green padlock nowadays, but i dunno - it'll probably bug me enough that I end up grabbing a certificate too I guess.
 
 If you're a group member who's unsure what you should do now you're here, <i>start</i> by giving your feedback - tell us how you think our site should look or feel and what is wrong/right about it and incidentally - the dog silhouette logo is just a spur of the moment scribble to fill in until we've got a better one, unless we don't create a better one which is fine too I don't care, long as shit's gettin' <i>done</i> and not just discussed.
 
