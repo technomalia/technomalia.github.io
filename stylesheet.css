@@ -45,7 +45,7 @@ html {
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
   background-color: #699095;
-  background-image: linear-gradient( to right, rgba(21, 109, 200, 1), #ED902E) fixed;
+  background: linear-gradient( to right, rgba(21, 109, 200, 1), #ED902E) fixed;
   /* background: linear-gradient( to right, rgba(21, 109, 200, 1), #ED902E) fixed;*/
   background-repeat: no-repeat;
   /* background-size: device-width, initial-scale=1; */
