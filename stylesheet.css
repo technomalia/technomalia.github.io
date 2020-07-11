@@ -5293,6 +5293,7 @@ a.badge-dark:focus, a.badge-dark.focus {
     background: linear-gradient( to right, rgba(255,255,255,0.1), transparent) fixed;
     background-image: image("dog-shadow.png"); */
   border-radius: 0.3rem;
+  width: inherit;
 }
 
 @media (min-width: 576px) {
