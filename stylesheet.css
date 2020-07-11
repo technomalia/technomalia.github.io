@@ -39,7 +39,7 @@ html {
   /* min-height: 100%; */
   /* height: 200%; */
   /* width: 100%; */
-  /* width: device-width, initial-scale=1; */
+  width="device-width, initial-scale=1";
   font-family: 'Arial';
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
