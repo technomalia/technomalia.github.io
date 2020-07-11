@@ -442,6 +442,7 @@ h6, .h6 {
 
 .display-4 {
   font-size: 3.3rem;
+  font-family: 'Bangers';
   text-rendering: geometricPrecision;
   letter-spacing: 0.3rem;
   font-weight: 100;
@@ -5287,9 +5288,10 @@ a.badge-dark:focus, a.badge-dark.focus {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-color: rgba(255,255,255,0.10);
+  background-color: transparent;
+  /* background-color: rgba(255,255,255,0.10);
     background: linear-gradient( to right, rgba(255,255,255,0.1), transparent) fixed;
-    background-image: image("dog-shadow.png");
+    background-image: image("dog-shadow.png"); */
   border-radius: 0.3rem;
 }
 
