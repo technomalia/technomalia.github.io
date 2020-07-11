@@ -1,32 +1,38 @@
+/*!
+ * Bootstrap v4.4.1 (https://getbootstrap.com/)
+ * Copyright 2011-2019 The Bootstrap Authors
+ * Copyright 2011-2019 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
 :root {
-  RBRACE--blue: #007bff;
-  RBRACE--indigo: #6610f2;
-  RBRACE--purple: #6f42c1;
-  RBRACE--pink: #e83e8c;
-  RBRACE--red: #dc3545;
-  RBRACE--orange: #fd7e14;
-  RBRACE--yellow: #ffc107;
-  RBRACE--green: #28a745;
-  RBRACE--teal: #20c997;
-  RBRACE--cyan: #17a2b8;
-  RBRACE--white: #fff;
-  RBRACE--gray: #6c757d;
-  RBRACE--gray-dark: #343a40;
-  RBRACE--primary: #007bff;
-  RBRACE--secondary: #6c757d;
-  RBRACE--success: #28a745;
-  RBRACE--info: #17a2b8;
-  RBRACE--warning: #ffc107;
-  RBRACE--danger: #dc3545;
-  RBRACE--light: #f8f9fa;
-  RBRACE--dark: #343a40;
-  RBRACE--breakpoint-xs: 0;
-  RBRACE--breakpoint-sm: 576px;
-  RBRACE--breakpoint-md: 768px;
-  RBRACE--breakpoint-lg: 992px;
-  RBRACE--breakpoint-xl: 1200px;
-  RBRACE--font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  RBRACE--font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
 *,
@@ -36,18 +42,10 @@
 }
 
 html {
-  /* min-height: 100%;
-  height: 200%;
-  width: 100%; */
-  /* width: device-width, initial-scale=1; */
   font-family: sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  background-color: #699095;
-  /* background: linear-gradient( to right, rgba(21, 109, 200, 1), #ED902E) fixed; */
-  /* background-repeat: no-repeat; */
-  /* background-size: device-width, initial-scale=1; */
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -60,15 +58,9 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.5;
-  color: #343434;
+  color: #212529;
   text-align: left;
-  min-height: 100%;
-  background-color: #699095;
-  background: linear-gradient( to right, rgba(21, 109, 200, 0.8), #ED902E) fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: device-width, initial-scale=1;
-  /* height: 100%; */
+  background-color: #fff;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -89,16 +81,11 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
-  font-size: 136%;
-  text-rendering: geometricPrecision;
-  padding-left: 20px;
-  padding-right: 20px;
-  font-family: 'Quicksand';
-  font-weight: 350;
 }
 
 abbr[title],
 abbr[data-original-title] {
+  text-decoration: underline;
   -webkit-text-decoration: underline dotted;
   text-decoration: underline dotted;
   cursor: help;
@@ -166,13 +153,13 @@ sup {
 }
 
 a {
-  color: #fff;
+  color: #007bff;
   text-decoration: none;
   background-color: transparent;
 }
 
 a:hover {
-  color: #fff;
+  color: #0056b3;
   text-decoration: underline;
 }
 
@@ -376,16 +363,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 3.3rem;
-  font-weight: 300;
-  font-style: bolder;
-  text-transform: capitalize;
-  padding-left: 12px;
-  padding-right: 12px;
-  background: -webkit-linear-gradient(rgb(23, 77, 94, 0.8), rgb(0, 0, 0, 0.3));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  line-height: 150%;
+  font-size: 2.5rem;
 }
 
 h2, .h2 {
@@ -409,17 +387,8 @@ h6, .h6 {
 }
 
 .lead {
-  font-size: 1.5rem;
-  font-weight: 366;
-  font-family: 'Comfortaa';
-  font-style: strong;
-  line-height: 166%;
-  padding-left: 20px;
-  padding-right: 20px;
-  background: -webkit-linear-gradient(rgb(0, 233, 255, 0.6), rgb(255, 133, 0, 0.9));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  text-shadow: 0px 0px 0.9px rgb(233, 233, 233, 0.9);
+  font-size: 1.25rem;
+  font-weight: 300;
 }
 
 .display-1 {
@@ -441,17 +410,9 @@ h6, .h6 {
 }
 
 .display-4 {
-  font-size: 3.3rem;
-  text-rendering: geometricPrecision;
-  letter-spacing: 0.3rem;
-  font-weight: 100;
-  line-height: 100%;
-  padding-left: 10px;
-  padding-right: 10px;
-  text-transform: uppercase;
-  background: -webkit-linear-gradient(rgb(17, 49, 61, 0.1), rgb(0, 0, 0, 0.7));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1.2;
 }
 
 hr {
@@ -2553,7 +2514,7 @@ textarea.form-control {
 .btn {
   display: inline-block;
   font-weight: 400;
-  color: #fff;
+  color: #212529;
   text-align: center;
   vertical-align: middle;
   cursor: pointer;
@@ -2577,13 +2538,13 @@ textarea.form-control {
 }
 
 .btn:hover {
-  color: #fff;
+  color: #212529;
   text-decoration: none;
 }
 
 .btn:focus, .btn.focus {
   outline: 0;
-  box-shadow: 0 0 3rem 3rem rgba(255, 255, 255, 0.8) inset;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
 
 .btn.disabled, .btn:disabled {
@@ -2597,19 +2558,19 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: rgba(21, 109, 200, 0.7);
-  border-color: rgba(102, 70, 15, 0.7);
+  background-color: #007bff;
+  border-color: #007bff;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: rgba(0,45,69,0.0);
-  border-color: #fff;
+  background-color: #0069d9;
+  border-color: #0062cc;
 }
 
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: rgba(6, 70, 87, 0.76);
+  background-color: #0069d9;
   border-color: #0062cc;
   box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
 }
@@ -2629,7 +2590,7 @@ fieldset:disabled a.btn {
 
 .btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
 .show > .btn-primary.dropdown-toggle:focus {
-  box-shadow: 0 0 6rem 0.3rem rgba(255, 255, 255, 1);
+  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
 }
 
 .btn-secondary {
@@ -3237,7 +3198,6 @@ input[type="button"].btn-block {
 
 .dropdown-toggle {
   white-space: nowrap;
-  border-radius: 0.3rem;
 }
 
 .dropdown-toggle::after {
@@ -3266,10 +3226,10 @@ input[type="button"].btn-block {
   padding: 0.5rem 0;
   margin: 0.125rem 0 0;
   font-size: 1rem;
-  color: #FFF;
+  color: #212529;
   text-align: left;
   list-style: none;
-  background-color: rgb(0, 45, 69, 0.5);
+  background-color: #fff;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 0.25rem;
@@ -3433,7 +3393,7 @@ input[type="button"].btn-block {
   padding: 0.25rem 1.5rem;
   clear: both;
   font-weight: 400;
-  color: #CCC;
+  color: #212529;
   text-align: inherit;
   white-space: nowrap;
   background-color: transparent;
@@ -3441,15 +3401,15 @@ input[type="button"].btn-block {
 }
 
 .dropdown-item:hover, .dropdown-item:focus {
-  color: #FFF;
+  color: #16181b;
   text-decoration: none;
-  background-color: rgb(209, 135, 22);
+  background-color: #f8f9fa;
 }
 
 .dropdown-item.active, .dropdown-item:active {
   color: #fff;
   text-decoration: none;
-  background-color: rgb(181, 137, 24, 0.8);
+  background-color: #007bff;
 }
 
 .dropdown-item.disabled, .dropdown-item:disabled {
@@ -4309,16 +4269,16 @@ input[type="button"].btn-block {
 }
 
 .nav-tabs .nav-link.disabled {
-  color: rgba(187,187,187,0.73);
-  background-color: rgb(0,0,0,0,0);
+  color: #6c757d;
+  background-color: transparent;
   border-color: transparent;
 }
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
-  color: rgba(187,187,187,0.77);
-  background-color: transparent;
-  border-color: #dee2e6 #dee2e6 rgb(214, 132, 22, 0.5);
+  color: #495057;
+  background-color: #fff;
+  border-color: #dee2e6 #dee2e6 #fff;
 }
 
 .nav-tabs .dropdown-menu {
@@ -4334,7 +4294,7 @@ input[type="button"].btn-block {
 .nav-pills .nav-link.active,
 .nav-pills .show > .nav-link {
   color: #fff;
-  background-color: #00E0FF;
+  background-color: #007bff;
 }
 
 .nav-fill .nav-item {
@@ -4369,8 +4329,7 @@ input[type="button"].btn-block {
   align-items: center;
   -ms-flex-pack: justify;
   justify-content: space-between;
-  /* padding: 0.5rem 1rem; */
-
+  padding: 0.5rem 1rem;
 }
 
 .navbar .container,
@@ -4407,8 +4366,6 @@ input[type="button"].btn-block {
   padding-left: 0;
   margin-bottom: 0;
   list-style: none;
-  background-color: rgba(12, 80, 78, 0.1); /* #699095; */
-  /* background-image: url("dog-shadow.png"); */
 }
 
 .navbar-nav .nav-link {
@@ -5286,9 +5243,7 @@ a.badge-dark:focus, a.badge-dark.focus {
 .jumbotron {
   padding: 2rem 1rem;
   margin-bottom: 2rem;
-  background-color: rgba(255,255,255,0.10);
-    background: linear-gradient( to right, rgba(255,255,255,0.1), transparent) fixed;
-    background-image: image("dog-shadow.png");
+  background-color: #e9ecef;
   border-radius: 0.3rem;
 }
 
@@ -6808,13 +6763,13 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: rgb(100, 100, 100, 0.0)/* #343a40 */ !important;
+  background-color: #343a40 !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
 button.bg-dark:focus {
-  background-color: transparent /* #1d2124 */!important;
+  background-color: #1d2124 !important;
 }
 
 .bg-white {
@@ -8023,7 +7978,7 @@ button.bg-dark:focus {
   z-index: 1030;
 }
 
-@supports ((position: -webkit-sticky)) {
+@supports ((position: -webkit-sticky) or (position: sticky)) {
   .sticky-top {
     position: -webkit-sticky;
     position: sticky;
@@ -10237,7 +10192,6 @@ a.text-dark:hover, a.text-dark:focus {
   }
   .navbar {
     display: none;
-    background-color: transparent;
   }
   .badge {
     border: 1px solid #000;
