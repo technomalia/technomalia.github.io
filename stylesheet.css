@@ -446,8 +446,8 @@ h6, .h6 {
   letter-spacing: 0.55rem;
   font-weight: 50;
   line-height: 123%;
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 0px;
+  padding-right: 0px;
   text-transform: lowercase;
   font-style: normal;
   /* background: -webkit-linear-gradient(rgb(17, 49, 61, 0.1), rgb(0, 0, 0, 0.7));
