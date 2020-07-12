@@ -85,8 +85,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  margin-top: 0;
-  margin-bottom: 0.66rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
   font-size: 130%;
   text-rendering: optimizeLegibility;
   padding-left: 10px;
@@ -414,6 +414,7 @@ h6, .h6 {
   font-family: 'Comfortaa';
   font-style: strong;
   line-height: 166%;
+  letter-spacing: 3px;
   padding-left: 20px;
   padding-right: 20px;
   background: -webkit-linear-gradient(rgb(0, 233, 255, 0.3), rgb(255, 133, 0, 0.2));
@@ -476,7 +477,8 @@ hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
   border: 0;
-  border-top: 1px dotted rgb(0, 0, 0, 0.3);
+  width: 80%;
+  border-top: 3px dotted rgb(255, 255, 255, 0.1);
 }
 
 small,
