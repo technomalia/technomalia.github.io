@@ -468,6 +468,7 @@ h6, .h6 {
   background: -webkit-linear-gradient(rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.4));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  vertical-align: bottom;
   /* color: rgba(255, 255, 255, 0.1); */
 }
 
