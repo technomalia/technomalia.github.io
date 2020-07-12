@@ -452,6 +452,7 @@ h6, .h6 {
   /* background: -webkit-linear-gradient(rgb(17, 49, 61, 0.1), rgb(0, 0, 0, 0.7));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; */
+  color: rgba(0, 0, 0, 0.5);
 }
 
 hr {
