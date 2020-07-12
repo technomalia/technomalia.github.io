@@ -449,9 +449,9 @@ h6, .h6 {
   padding-left: 10px;
   padding-right: 10px;
   text-transform: uppercase;
-  background: -webkit-linear-gradient(rgb(17, 49, 61, 0.1), rgb(0, 0, 0, 0.7));
+  /* background: -webkit-linear-gradient(rgb(17, 49, 61, 0.1), rgb(0, 0, 0, 0.7));
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
 }
 
 hr {
