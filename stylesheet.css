@@ -440,14 +440,14 @@ h6, .h6 {
 }
 
 .display-4 {
-  font-size: 2.6rem;
+  font-size: 2.3rem;
   font-family: 'Open Sans';
   text-rendering:optimizeLegibility;
   letter-spacing: 0.66rem;
   font-weight: 50;
   line-height: 100%;
-  padding-left: -20px;
-  padding-right: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
   text-transform: lowercase;
   font-style: normal;
   /* background: -webkit-linear-gradient(rgb(17, 49, 61, 0.1), rgb(0, 0, 0, 0.7));
