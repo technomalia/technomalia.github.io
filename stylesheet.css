@@ -584,8 +584,8 @@ mark,
 code {
   font-size: 100%;
   font-weight: 333;
-  color: rgba(0, 0, 0, 0.94);
-  background-color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.94);
+  background-color: rgba(0, 0, 0, 0.6);
   padding: 5px;
   border-radius: 3px;
   word-wrap: break-word;
