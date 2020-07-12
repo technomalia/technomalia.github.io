@@ -86,7 +86,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem;
+  margin-bottom: 0.66rem;
   font-size: 130%;
   text-rendering: optimizeLegibility;
   padding-left: 10px;
@@ -95,7 +95,7 @@ p {
   font-weight: 450;
   width: 100%;
   color: #212121;
-  font-style: bold;
+  font-style: normal;
 }
 
 abbr[title],
@@ -191,7 +191,7 @@ pre,
 code,
 kbd,
 samp {
-  font-family: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  font-family: 'Special Elite', SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
   font-size: 1em;
 }
 
@@ -377,15 +377,15 @@ h1, h2, h3, h4, h5, h6,
 }
 
 h1, .h1 {
-  font-size: 3.3rem;
+  /* font-size: 3.3rem; */
   font-weight: 300;
   text-transform: capitalize;
-  padding-left: 12px;
-  padding-right: 12px;
-  background: -webkit-linear-gradient(rgb(23, 77, 94, 0.8), rgb(0, 0, 0, 0.3));
+  padding-left: 5px;
+  padding-right: 5px;
+  /* background: -webkit-linear-gradient(rgb(23, 77, 94, 0.8), rgb(0, 0, 0, 0.3));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  line-height: 150%;
+  line-height: 150%; */
 }
 
 h2, .h2 {
