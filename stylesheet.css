@@ -45,7 +45,7 @@ html {
   background: linear-gradient( to right, rgba(21, 109, 200, 1), #ED902E) fixed;
   /* background: linear-gradient( to right, rgba(21, 109, 200, 1), #ED902E) fixed;*/
   background-repeat: no-repeat;
-  /* background-size: device-width, initial-scale=1; */
+  background-size: device-width, initial-scale=1;
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
