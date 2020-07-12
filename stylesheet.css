@@ -1,3 +1,25 @@
+/* FILE NOTES
+
+    /stylesheet.css - Contains complete styling, formatting and colours for the site.
+
+    I can write down a list of all the styles relevent to the primary
+    HTML elements within the site and the new CSS rules I've added, though
+    right now I've got to create the top level pages and start on a set of
+    images to complete the visual theme/feel of the site before I can worry
+    about that.
+
+    In the meantime I've added this micro-readme right up the top where
+    it cannot be missed to request for everyone to please DON'T modify this
+    file: ESPECIALLY not in Dreamweaver or another web-page editing
+    application because they almost always add things that aren't wanted
+    and can mess up .. wait..
+
+    Holy shit, there's a lightening storm going on and I'm seeing actual sparks
+    from the power outlets and lights..
+
+    I don't usually bother unplugging things for storms, but I don't usually SEE
+    sparks INSIDE, either.. */
+
 :root {
   RBRACE--blue: #007bff;
   RBRACE--indigo: #6610f2;
