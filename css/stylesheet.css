@@ -4464,7 +4464,7 @@ input[type="button"].btn-block {
   font-size: 1rem;
   line-height: inherit;
   white-space: nowrap;
-  background-color: rgba(21, 109, 200, 1);
+  background-color: transparent;
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
