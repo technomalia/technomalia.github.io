@@ -40,6 +40,12 @@
           /* color: rgba(0, 0, 0, 0.8); */
         }
 
+        audio {
+            filter: sepia(20%) saturate(70%) grayscale(1) contrast(99%) invert(12%);
+            width: 222px;
+            height: 33px;
+        }
+
     </style>
 </head>
 
@@ -146,11 +152,7 @@
           <div id="audio-interview" width="100%" style="padding: 0.33rem 0.33rem; background: linear-gradient( to right, rgba(21, 109, 200, 1), rgba(158, 44, 204, 0.5))">
             <p align="center" style="color: rgb(255, 255, 255, 0.7)">Here's Joanne interviewing the IT professional:</p>
               <!-- <audio controls download="false" id="audio-player" width="50%" style="padding: 1rem; border-radius: 9px"> -->
-              <audio id="audio-player" src="joanne-interview.mp3">
-                   <buttononclick = "document.getElementById('audio-player').play()">Play</button>
-                   <buttononclick = "document.getElementById('audio-player').pause()">Pause</button>
-                   <buttononclick = "document.getElementById('audio-player').volume += 0.2">Vol+</button>
-                   <buttononclick = "document.getElementById('audio-player').volume -= 0.2">Vol-</button>
+              <audio controls id="audio-player" src="joanne-interview.mp3">
               </audio>
                 <!-- <source src="joanne-interview.mp3">
               </audio> -->
