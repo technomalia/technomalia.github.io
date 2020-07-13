@@ -57,6 +57,12 @@
   box-sizing: border-box;
 }
 
+audio {
+    width: 50%;
+    margin: 0.33rem;
+    border-radius: 9px;
+}
+
 html {
   /*width: 100%;*/
   font-family: sans-serif;
