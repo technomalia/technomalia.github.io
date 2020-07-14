@@ -65,7 +65,7 @@ audio {
 
 .joanne {
   /* Styling for Jo's half of the transcribed dialog at the end of ../interview/index.html */
-  font-family: 'Special Elite';
+  font-family: 'Ubuntu';
   font-size: 100%;
   color: rgba(222, 100, 233, 0.95);
   line-height: 110%;
@@ -74,7 +74,7 @@ audio {
 
 .rael {
   /* Styling for Jo's colleague's's half of the interview in ../interview/index.html */
-  font-family: 'Special Elite';
+  font-family: 'Open Sans';
   font-size: 110%;
   color: rgba(200, 200, 200, 0.96);
   line-height: 110%;
@@ -83,7 +83,7 @@ audio {
 
 .transcript-box {
   padding="0.66rem 0.22rem";
-  background: linear-gradient( to right, rgba(21, 109, 200, 0.5), rgba(158, 44, 204, 0.3));
+  background: linear-gradient( to right, rgba(15, 63, 112, 0.1), rgba(73, 18, 94, 0.3));
   border: 1px dotted rgba(255, 255, 255, 0.4);
   border-radius: 0px 0px 33px 33px;
 }
