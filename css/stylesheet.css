@@ -59,8 +59,11 @@
 
 audio {
     width: 50%;
-    margin: 1.66rem;
     border-radius: 9px;
+}
+
+.audio-box {
+  margin: 1.66rem;
 }
 
 .joanne {
