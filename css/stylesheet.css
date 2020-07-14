@@ -65,9 +65,9 @@ audio {
 
 .joanne {
   /* Styling for Jo's half of the transcribed dialog at the end of ../interview/index.html */
-  font-family: 'Ubuntu';
+  font-family: 'Open Sans';
   font-size: 100%;
-  color: rgba(222, 100, 233, 0.95);
+  color: rgba(250, 100, 250, 0.95);
   line-height: 110%;
   text-align: left;
 }
@@ -78,6 +78,7 @@ audio {
   font-size: 110%;
   color: rgba(200, 200, 200, 0.96);
   line-height: 110%;
+  font-style: italic;
   text-align: left;
 }
 
