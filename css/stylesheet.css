@@ -63,13 +63,14 @@ audio {
 }
 
 .audio-box {
-  padding: 1.66rem;
+  padding: 1rem;
 }
 
 .joanne {
   /* Styling for Jo's half of the transcribed dialog at the end of ../interview/index.html */
   margin-left: 0.5rem;
   margin-right: 0.5rem;
+  margin-bottom: 1rem;
   font-family: 'Open Sans';
   font-size: 110%;
   color: rgba(255, 250, 250, 1.0);
@@ -81,6 +82,7 @@ audio {
   /* Styling for Jo's colleague's's half of the interview in ../interview/index.html */
   margin-left: 0.5rem;
   margin-right: 0.5rem;
+  margin-bottom: 1rem;
   font-family: 'Open Sans';
   font-size: 110%;
   color: rgba(195, 200, 200, 0.9);
