@@ -63,6 +63,27 @@ audio {
     border-radius: 9px;
 }
 
+.joanne {
+  /* Styling for Jo's half of the transcribed dialog at the end of ../interview/index.html */
+  font-size: 95%;
+  color: rgba(48, 16, 56, 0.95);
+  line-height: 80%;
+}
+
+.rael {
+  /* Styling for Jo's colleague's's half of the interview in ../interview/index.html */
+  font-size: 95%;
+  color: rgba(47, 35, 26, 0.96);
+  line-height: 80%;
+}
+
+.transcript-box {
+  padding="0.66rem 0.22rem";
+  background: linear-gradient( to left, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.5));
+  border: 1px dotted rgba(255, 255, 255, 0.4);
+  border-radius: 0px 0px 33px 33px;
+}
+
 html {
   /*width: 100%;*/
   font-family: sans-serif;
