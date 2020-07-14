@@ -92,7 +92,7 @@ audio {
 }
 
 .transcript-box {
-  padding="1rem";
+  padding: 1rem;
   background: linear-gradient( to right, rgba(21, 109, 200, 1), rgba(73, 18, 94, 0.1));
   border-radius: 0px 0px 33px 33px;
 }
