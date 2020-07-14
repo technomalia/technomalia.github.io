@@ -65,17 +65,19 @@ audio {
 
 .joanne {
   /* Styling for Jo's half of the transcribed dialog at the end of ../interview/index.html */
+  font-family: 'Special Elite';
   font-size: 95%;
-  color: rgba(48, 16, 56, 0.95);
-  line-height: 80%;
+  color: rgba(100, 50, 100, 0.95);
+  line-height: 100%;
   text-align: left;
 }
 
 .rael {
   /* Styling for Jo's colleague's's half of the interview in ../interview/index.html */
+  font-family: 'Special Elite';
   font-size: 95%;
-  color: rgba(47, 35, 26, 0.96);
-  line-height: 80%;
+  color: rgba(100, 50, 0, 0.96);
+  line-height: 100%;
   text-align: left;
 }
 
