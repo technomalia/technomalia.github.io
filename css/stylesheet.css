@@ -68,7 +68,7 @@ audio {
   font-size: 95%;
   color: rgba(48, 16, 56, 0.95);
   line-height: 80%;
-  align: left;
+  text-align: left;
 }
 
 .rael {
@@ -76,7 +76,7 @@ audio {
   font-size: 95%;
   color: rgba(47, 35, 26, 0.96);
   line-height: 80%;
-  align: left;
+  text-align: left;
 }
 
 .transcript-box {
