@@ -485,7 +485,7 @@ h2, .h2 {
 	font-family: Comfortaa;
   font-size: 2rem;
   font-weight: 200; 
-  letter-spacing: normal;
+  letter-spacing: 2px;
   line-height: 3rem;
   margin-left: 0.66rem;
   margin-right: 0.66rem;
