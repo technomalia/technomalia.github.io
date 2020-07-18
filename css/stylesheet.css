@@ -66,7 +66,7 @@ audio {
   padding: 1rem;
 }
 
-.joanne {
+.joannename {
   /* Styling for Jo's half of the transcribed dialog at the end of ../interview/index.html */
   margin-left: 0.5rem;
   margin-right: 0.5rem;
@@ -78,7 +78,7 @@ audio {
   text-align: left;
 }
 
-.rael {
+.raelname {
   /* Styling for Jo's colleague's's half of the interview in ../interview/index.html */
   margin-left: 0.5rem;
   margin-right: 0.5rem;
