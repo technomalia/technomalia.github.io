@@ -93,7 +93,7 @@
 <!-- Jumbtron -->
   <div class="jumbotron" align="center">
     <div class="container" width="100%">
-          <div id="title" align="center" width="100%"><h1 class="display-4" align="center">technomalia/<br><span class="display-4-inverted">Welcome</span></h1></div>
+          <div id="title" align="center" width="100%"><h1 class="display-4" align="center">technomalia/<br><span class="display-4-inverted">"Our IT Project"</span></h1></div>
           <hr>
           <p class="lead-alt" align="center">Group #15 of Intro to IT with our bro, AC.</p>
 
