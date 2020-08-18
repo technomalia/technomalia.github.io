@@ -565,10 +565,11 @@ h6, .h6 {
   padding-right: 0px;
   text-transform: lowercase;
   font-style: normal;
-  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.0), rgba(255, 255, 255, 0.4));
+  background: -webkit-linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.9));
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   vertical-align: bottom;
+  text-shadow: 1px 1px 9px #fff;
   /* color: rgba(255, 255, 255, 0.1); */
 }
 
