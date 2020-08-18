@@ -569,7 +569,7 @@ h6, .h6 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   vertical-align: bottom;
-  text-shadow: 1px 1px 9px #fff;
+  text-shadow: 1px 1px 13px #fff;
   /* color: rgba(255, 255, 255, 0.1); */
 }
 
