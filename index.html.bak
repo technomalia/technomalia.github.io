@@ -40,17 +40,18 @@
           letter-spacing: 0.50rem;
           vertical-align: top;
           text-shadow: 0px 0px 0px transparent;
+          line-height: 100%;
           /* color: rgba(0, 0, 0, 0.8); */
         }
     </style>
 </head>
 
-<body background-color="#ED902E" style="padding-top: 50px; width: 100%">
+<body background-color="#0260FF" style="padding-top: 50px; width: 100%">
 
 <!-- Navigation bar -->
 <div class="container-full-bg">
 <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark" style="height: 70px; background-color: rgba(21, 109, 200, 0.0)"> <!--margin-left: -15px; width: 109%; -->
-    <a class="navbar-brand heading" href="https://technomalia.org" style="color: #ED902E"> &nbsp;&nbsp;&nbsp;<img src="images/home-icon.png"></a>
+    <a class="navbar-brand heading" href="https://technomalia.org" style="color: #0260FF"> &nbsp;&nbsp;&nbsp;<img src="images/home-icon.png"></a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1"
              aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation">
        <span class="navbar-toggler-icon"></span>
@@ -99,7 +100,7 @@
     <div class="container" width="100%">
           <div id="title" align="center" width="100%"><h1 class="display-4" align="center">technomalia/<br><span class="display-4-inverted">Home</span></h1></div>
           <hr>
-          <p class="lead-alt" align="center">Group #15 of Intro to IT with our bro, AC.</p>
+          <p class="lead-alt" align="center">Assignments 03/05 | "Our IT Project"</p>
 
           <!-- Buttons for quick-jumping -->
           <div class="bubble">
@@ -111,9 +112,12 @@
             </p>
           </div>
           
-          <div width="100%" style="padding: 0.66rem 0.0rem; background-color: #2266CC; border-radius: 0px 0px 0px 0px">
-              <h2 align="center" style="font-size: 1.67rem; color: #FFF">Assignments 03 & 05</h2>
-              <p align="center" style="font-size: 1.23rem; color: #DDD">...</p>
+          <div width="100%" style="padding: 0.66rem 0.0rem; background-color: #0260FF; border-radius: 0px 0px 0px 0px">
+              <h2 align="center" style="font-size: 1.67rem; color: #FFF">A note on this iteration of the site..</h2>
+              <p align="center" style="font-size: 1.23rem; color: #DDD">Firstly, so there's record of it: this update started at Commit 522 in the github repository, so everything after that number are changes made as part of the 03/05 update.</p>
+              <p align="center" style="font-size: 1.23rem; color: #DDD">Secondly and having stated the above, I will <i>attempt</i> to reduce the number of commits so they're not as copious or at least add quick commit messages that <i>do</i> mean something to you, the marker, but I really can't guarantee I won't add <i>another</i> 500 commits to the branch since that's just how I roll: I save the file, I commit, I push to the remote server so I can see my changes on the live site each time I make them because <i>that</i> is how I like doing it while you are just a red texta in a tweed jacket so suck it up and stop your bitching fat-stuff - mark the damn assignment that is your <b>only role</b> in the entire process.</p>
+              <p align="center" style="font-size: 1.23rem; color: #DDD"></p>
+
           </div>
 
           <div width="100%" style="padding: 0.66rem 0.0rem; background-color: rgba(255, 255, 255, 0.3); border-radius: 0px 0px 0px 0px">

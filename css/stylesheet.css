@@ -2746,13 +2746,13 @@ fieldset:disabled a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: rgba(21, 109, 200, 0.7);
-  border-color: rgba(102, 70, 15, 0.7);
+  background-color: transparent; /* rgba(21, 109, 200, 0.7); */
+  border-color: #0260ff;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: rgba(0,45,69,0.0);
+  background-color: #0260ff;
   border-color: #fff;
 }
 
