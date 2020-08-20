@@ -31,7 +31,7 @@
         .typewriter {font-family: 'Special Elite';font-weight: 100;}
         .display-4-inverted {
           font-family: 'Bangers';
-          font-size: 220%;
+          font-size: 200%;
           //background: -webkit-linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9));
           //-webkit-background-clip: text;
           //-webkit-text-fill-color: transparent;
@@ -69,25 +69,27 @@
                    </div>
                </li> -->
               <!-- Dropdown group 2 -->
+			  <!--
               <li class="nav-item dropdown bg-dark"> <a class="nav-link dropdown-toggle" href="interview/" id="navbarDropdown2" role="button"
                   data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">&nbsp;&nbsp;&nbsp; The Interview </a>
       	          <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
                       <a class="dropdown-item" href="interview/"> Interview with an IT Professional <span style="color: #59F">...</span></a>
                   </div>
               </li>
+			  -->
               <!-- Dropdown group 3 -->
   	          <li class="nav-item dropdown bg-dark"> <a class="nav-link dropdown-toggle" href="products/" id="navbarDropdown3" role="button"
-                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">&nbsp;&nbsp;&nbsp; SmartPet-20 </a>
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">&nbsp;&nbsp;&nbsp; Products </a>
     	            <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
-                      <a class="dropdown-item" href="products/"> SmartPet-20 AI Animal Translator <span style="color: #59F">...</span></a>
+                      <a class="dropdown-item" href="products/"> SmartPet-20 Safety Collar <span style="color: #59F"></span></a>
                   </div>
               </li>
               <!-- Dropdown group 4 -->
   	          <li class="nav-item dropdown bg-dark"> <a class="nav-link dropdown-toggle" href="information/" id="navbarDropdown4" role="button"
-                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">&nbsp;&nbsp;&nbsp; Team Information </a>
+                  data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">&nbsp;&nbsp;&nbsp; About Technomalia </a>
     	            <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
                       <!-- <a class="dropdown-item" href="information/site-notes.html"> About the Site <span style="color: #59F">Jason Barber</span></a> -->
-                      <a class="dropdown-item" href="information/"> Team Profiling <span style="color: #59F">...</span></a>
+                      <a class="dropdown-item" href="information/"> Meet the Team <span style="color: #59F"></span></a>
     	                <!-- <a class="dropdown-item" href="information/assignment-notes.html"> Assignment Notes <span style="color: #59F">All</span></a> -->
                       <!-- <div class="dropdown-divider"></div> -->
                   </div>
@@ -98,42 +100,29 @@
 <!-- Jumbtron -->
   <div class="jumbotron" align="center">
     <div class="container" width="100%">
-          <div id="title" align="center" width="100%"><h1 class="display-4" align="center">technomalia/<br><span class="display-4-inverted">Home</span></h1></div>
+          <div id="title" align="center" width="100%"><h1 class="display-4" align="center">technomalia/<span class="display-4-inverted">Home</span></h1></div>
           <hr>
-          <p class="lead-alt" align="center">Assignments 03/05 | "Our IT Project"</p>
+          <p class="lead-alt" align="center">Assignments 03/05 | "Our IT Project" | Class-A Anthony Clapp</p>
 
           <!-- Buttons for quick-jumping -->
           <div class="bubble">
             <p class="bubble-paragraphs" align="center" vertical-align="middle";>
                 <!-- <a class="btn btn-primary btn-lg" href="reports/" role="button" align="center" style="align: center; color: rgb(255, 255, 255, 0.8)">The Reports</a> -->
-                <a class="btn btn-primary btn-lg" href="interview/" role="button" align="center" style="align: center; color: rgb(255, 255, 255, 0.8)">The Interview</a>
+                <!-- <a class="btn btn-primary btn-lg" href="interview/" role="button" align="center" style="align: center; color: rgb(255, 255, 255, 0.8)">The Interview</a> -->
                 <a class="btn btn-primary btn-lg" href="products/" role="button" align="center" style="align: center; color: rgb(255, 255, 255, 0.8)">The Product</a>
                 <a class="btn btn-primary btn-lg" href="information/" role="button" align="center" style="align: center; color: rgb(255, 255, 255, 0.8)">Team Profiling</a>
             </p>
           </div>
           
           <div width="100%" style="padding: 0.66rem 0.0rem; background-color: #0260FF; border-radius: 0px 0px 0px 0px">
-              <h2 align="center" style="font-size: 1.67rem; color: #FFF">A note on this iteration of the site..</h2>
-              <p align="center" style="font-size: 1.23rem; color: #DDD">Firstly, so there's record of it: this update started at Commit 522 in the github repository, so everything after that number are changes made as part of the 03/05 update.</p>
-              <p align="center" style="font-size: 1.23rem; color: #DDD">Secondly and having stated the above, I will <i>attempt</i> to reduce the number of commits so they're not as copious or at least add quick commit messages that <i>do</i> mean something to you, the marker, but I really can't guarantee I won't add <i>another</i> 500 commits to the branch since that's just how I roll: I save the file, I commit, I push to the remote server so I can see my changes on the live site each time I make them because <i>that</i> is how I like doing it while you are just a red texta in a tweed jacket to us so suck it up fatty and mark the assignment - it's all you're here to do.</p>
-              <p align="center" style="font-size: 1.23rem; color: #DDD"></p>
+              <h2 align="left" style="font-size: 1.67rem; color: #FFF">Introducing the SmartPet-20 Animal Safety Collar...</h2>
+              <p align="left" style="font-size: 1rem; color: #FFF">(Here I think we should add the presentation so I'll leave this empty for now)</p>
+              <p align="left" style="font-size: 1rem; color: #FFF">...</p>
 
           </div>
 
           <div width="100%" style="padding: 0.66rem 0.0rem; background-color: rgba(255, 255, 255, 0.3); border-radius: 0px 0px 0px 0px">
-              <p align="left" class="lead">Site Updates</p>
-              <p align="left">...</p>
-              <ul>
-                <!-- <li style="text-align: left; font-size: 20px; font-family: Open Sans; margin-left: 0.66rem; margin-right: 0.66rem"><b>Saturday, 18th Jul @ 15:10]</b>: Downloaded a better, commercial text-editor since that's all I'm using and Atom kept sh*ting itself.</li>
-                <li style="text-align: left; font-size: 20px; font-family: Open Sans; margin-left: 0.66rem; margin-right: 0.66rem"><b>Saturday, 18th Jul @ 14:14]</b>: Sorted transcript formatting to alternating colours, added legend/image to team profiles page.</li>
-                <li style="text-align: left; font-size: 20px; font-family: Open Sans; margin-left: 0.66rem; margin-right: 0.66rem"><b>[Thursday, 16th Jul @ 22:28]</b>: Added Team Profiling Page and changed links to that.</li>
-                <li style="text-align: left; font-size: 20px; font-family: Open Sans; margin-left: 0.66rem; margin-right: 0.66rem"><b>[Thursday, 16th Jul @ 21:23]</b>: Double-smoked Ham and tomato with cream-cheese plus Lurpak butter, so you know Joanne :)</li>
-                <li style="text-align: left; font-size: 20px; font-family: Open Sans; margin-left: 0.66rem; margin-right: 0.66rem"><b>[Thursday, 16th Jul @ 17:40]</b>: Added Product Page and started editing.</li>
-                <li style="text-align: left; font-size: 20px; font-family: Open Sans; margin-left: 0.66rem; margin-right: 0.66rem"><b>[Wednesday, 15th Jul @ 17:30]</b>: Created a set of 4 favicons from Taras' little bear-face logo and uploaded them, replacing the dogs head ones.</li>
-                <li style="text-align: left; font-size: 20px; font-family: Open Sans; margin-left: 0.66rem; margin-right: 0.66rem"><b>[Wednesday, 15th Jul @ 16:30]</b>: Created styled section at the end of the Interview page - all ready for Shane to replace with the questions and answers from the interview.</li>
-                <li style="text-align: left; font-size: 20px; font-family: Open Sans; margin-left: 0.66rem; margin-right: 0.661rem"><b>[Wednesday, 15th Jul @ 16:00]</b>: Replaced the little doodled house image in the top-left corner of each page with bear-face logo.</li>
-                <li style="text-align: left; font-size: 20px; font-family: Open Sans; margin-left: 0.66rem; margin-right: 0.661rem"><b>[Monday, 13th Jul @ 12:00]</b>: Spontaeneously realized while shopping in Woolies, that we have too much to do to be wasting care-factor on decking the site out with pretty background images and stopped worrying about it.</li> -->
-              </ul>
+              
           </div>
 
           <div class="bubble" style="border-radius: 0px 0px 33px 33px">
