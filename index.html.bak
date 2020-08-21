@@ -117,7 +117,7 @@
           <div width="100%" style="padding: 0.66rem 0.0rem; background-color: transparent; border-radius: 0px 0px 0px 0px">
               <!-- <h2 align="left" style="font-size: 1.67rem; color: #FFF">Introducing the SmartPet-20 Animal Safety Collar...</h2> -->
               <p align="left" style="font-size: 1rem; color: #FFF"><img src="images/splash-screen-site.png" width="100%"></p>
-              <p align="left" style="font-size: 1rem; color: #FFF">...</p>
+              <p align="left" style="font-size: 1rem; color: #FFF"></p>
 
           </div>
 
@@ -126,7 +126,7 @@
           </div>
 
           <div class="bubble" style="border-radius: 0px 0px 33px 33px">
-            <p class="bubble-paragraphs" align="center" vertical-align="middle";>&nbsp;
+            <p class="bubble-paragraphs" align="center" vertical-align="middle";>
               
             </p>
           </div>
