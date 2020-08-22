@@ -19,6 +19,19 @@
 
     I don't usually bother unplugging things for storms, but I don't usually SEE
     sparks INSIDE, either.. */
+    
+    
+/* GLOBAL SITE COLOURS
+
+		While I'm here I'll add a short-list of colours used throughout 
+		the site for quick access - quicker than searching other files anyway:
+		
+				YELLOWS
+					#FFCC00 - Warm Yellow used in the logo
+						
+				BLUES
+					rgb(89, 154, 245) - Light blue used for accents in headings and sub-headings
+					#0260FF - Primary deep-blue used in all page backgrounds */
 
 :root {
   RBRACE--blue: #007bff;
