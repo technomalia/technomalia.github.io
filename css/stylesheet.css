@@ -132,9 +132,9 @@ html {
   /*width: 100%;*/
   font-family: sans-serif;
   line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
-  background-color: rgba(21, 109, 200, 1);
+  /* -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0); */
+  background-color: #0260FF;
   background-image: url("../images/jumbotron-bg.png");
   background-attachment: fixed;
 
