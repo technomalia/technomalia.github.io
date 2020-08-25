@@ -44,6 +44,7 @@
           /* color: rgba(0, 0, 0, 0.8); */
         }
     </style>
+<script src="Scripts/swfobject_modified.js"></script>
 </head>
 
 <body background-color="#0260FF" style="padding-top: 50px; width: 100%">
@@ -117,10 +118,35 @@
           <div width="100%" style="padding: 0.66rem 0.0rem; background-color: transparent; border-radius: 0px 0px 0px 0px">
               <!--<p align="center" style="font-size: 1rem; color: #FFF"><img src="images/smartpet-resting.png" width="100%"></p> -->
 
-              <h2 align="left" style="font-size: 1.67rem; color: #FFF"><b>Tomorrows Site To-do List:</b></h2>
-              <p align="left" style="font-size: 1.22rem; color: #DDD">Sunday, 23rd August 2020: honestly, the more I think about it the more I'd rather just keep going with the site and pft to the rest: at least here I can build and design the device I want without the group umming and ahhing about everything they don't understand, only to agree to a device they don't like.</p>
+              <!-- <h2 align="left" style="font-size: 1.67rem; color: #FFF"><b>Tomorrows Site To-do List:</b></h2> -->
+              <p align="left" style="font-size: 1.22rem; color: #DDD">.
+                <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="1920" height="1080" id="FlashID" title="test">
+                  <param name="movie" value="images/intro.swf">
+                  <param name="quality" value="high">
+                  <param name="wmode" value="opaque">
+                  <param name="swfversion" value="6.0.65.0">
+                  <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
+                  <param name="expressinstall" value="Scripts/expressInstall.swf">
+                  <!-- Next object tag is for non-IE browsers. So hide it from IE using IECC. -->
+                  <!--[if !IE]>-->
+                  <object type="application/x-shockwave-flash" data="images/intro.swf" width="1920" height="1080">
+                    <!--<![endif]-->
+                    <param name="quality" value="high">
+                    <param name="wmode" value="opaque">
+                    <param name="swfversion" value="6.0.65.0">
+                    <param name="expressinstall" value="Scripts/expressInstall.swf">
+                    <!-- The browser displays the following alternative content for users with Flash Player 6.0 and older. -->
+                    <div>
+                      <h4>Content on this page requires a newer version of Adobe Flash Player.</h4>
+                      <p><a href="http://www.adobe.com/go/getflashplayer"><img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" width="112" height="33" /></a></p>
+                    </div>
+                    <!--[if !IE]>-->
+                  </object>
+                  <!--<![endif]-->
+                </object>
+              </p>
  
- 									<ul>
+ 									<!-- <ul>
 									<li align="left" style="padding-left: 30px; padding-right: 30px; text-align: left; font-size: 22px; text-shadow: 3px 3px 3px #333; color: #999"><del>Remove all references to a "Plus" model so there's only one SmartPet-20 and LTE/Cellular is included as default, meaning there'll be no inferior version or customors, because every device is the same and contains *all* features.</del> Done.
 										</li>
 										<li align="left" style="padding-left: 30px; padding-right: 30px; text-align: left; font-size: 22px; text-shadow: 3px 3px 3px #333; color: #FFF">Think-up some new features that can be programmed-in with the same hardware the device already has.
@@ -131,11 +157,11 @@
 										</li>
 										<li align="left" style="padding-left: 30px; padding-right: 30px; text-align: left; font-size: 22px; text-shadow: 3px 3px 3px #333; color: #FFF">Invent NEW features with the limited hardware - like I said above - because I'm genuinely the only one capable of indepenent thought within our group and certainly the only one capable of coming up with ideas without needing to google what other people have already had, marketed and started selling.
 										</li>
-									</ul>
+									</ul> -->
 									
-						  <p align="left" style="font-size: 1.22rem; color: #DDD">That's my Sunday over by the time I've done all that and I neither know or care what boring the others are trudging their way through because I'm making the site-version of the device the way I envisioned it to be, not cloning other peoples products and changing a few words around.</p>
+						  <!-- <p align="left" style="font-size: 1.22rem; color: #DDD">That's my Sunday over by the time I've done all that and I neither know or care what boring the others are trudging their way through because I'm making the site-version of the device the way I envisioned it to be, not cloning other peoples products and changing a few words around.</p>
 						  
-						<p align="left" style="font-size: 1.22rem; color: #DDD">And since I can't be expected to keep my personality from infusing itself into anything I'm doing, I've stopped trying to keep it <b>OUT</b> and leaned into it instead, because that's just how it is.</b>.</p>
+						<p align="left" style="font-size: 1.22rem; color: #DDD">And since I can't be expected to keep my personality from infusing itself into anything I'm doing, I've stopped trying to keep it <b>OUT</b> and leaned into it instead, because that's just how it is.</b>.</p> -->
  
               <p align="center" style="font-size: 1.22rem; color: #FFF"></p>
 
@@ -162,6 +188,9 @@
 
 
 <script src="js/bootstrap-4.4.1.js"></script>
+<script type="text/javascript">
+swfobject.registerObject("FlashID");
+</script>
 </body>
 
 </html>
