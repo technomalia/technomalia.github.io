@@ -118,7 +118,7 @@
           <div width="100%" style="padding: 0.66rem 0.0rem; background-color: transparent; border-radius: 0px 0px 0px 0px">
               <!--<p align="center" style="font-size: 1rem; color: #FFF"><img src="images/smartpet-resting.png" width="100%"></p> -->
 
-              <h2 align="left" style="font-size: 1.67rem; color: #FFF"><b>Tomorrows Site To-do List:</b></h2>
+              <!-- <h2 align="left" style="font-size: 1.67rem; color: #FFF"><b>Tomorrows Site To-do List:</b></h2> -->
               <p align="left" style="font-size: 1.22rem; color: #DDD">.
                 <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="1920" height="1080" id="FlashID" title="test">
                   <param name="movie" value="images/intro.swf">
