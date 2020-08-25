@@ -123,7 +123,7 @@
                 <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="900" height="300" id="FlashID" title="test">
                   <param name="movie" value="images/intro3.swf">
                   <param name="quality" value="high">
-                  <param name="wmode" value="transparent">
+                  <param name="wmode" value="opaque">
                   <param name="swfversion" value="6.0.65.0">
                   <!-- This param tag prompts users with Flash Player 6.0 r65 and higher to download the latest version of Flash Player. Delete it if you don’t want users to see the prompt. -->
                   <param name="expressinstall" value="Scripts/expressInstall.swf">
